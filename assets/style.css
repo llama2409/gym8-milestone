@@ -26,3 +26,15 @@ h3 {
     color: var(--primary-color);
 }
 
+/* Navbar styles */
+#navbar {
+    background-color: var(--secondary-color);
+}
+
+/* Header styles */
+#header {
+    background-color: black;
+    color: var(--primary-color);
+    padding: 10px;
+    text-align: right;
+}
