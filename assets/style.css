@@ -79,6 +79,38 @@ p {
   font-size: 1.25rem;
 }
 
+.opening-hours-table {
+  padding-top: 50px;
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0, 188, 212, 0.2); /* soft shadow in cyan tone */
+  background-color: var(--white);
+  font-family: var(--primary-font);
+}
+
+.opening-hours-table thead th {
+  background-color: var(--primary-color) !important;
+  color: var(--white) !important;
+  text-transform: uppercase;
+  font-family: var(--secondary-font);
+}
+
+.opening-hours-table th,
+.opening-hours-table td {
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid var(--light-grey);
+  font-size: 1rem;
+  color: var(--text-color);
+}
+
+.opening-hours-table tbody tr:nth-child(even) {
+  background-color: var(--light-grey);
+}
+
 /* Buttons */
 .btn-primary {
   background-color: var(--primary-color);
@@ -149,3 +181,4 @@ form textarea:focus {
 .bg-secondary {
   background-color: var(--secondary-color) !important;
   color: var(--white);
+}
