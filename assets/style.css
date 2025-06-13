@@ -6,8 +6,8 @@
   --primary-font: 'IBM Plex Mono', monospace;
   --secondary-font: 'Lato', sans-serif;
   --accent-font: 'Oswald', sans-serif;
-  --primary-color: #00bcd4; /* Cyan */
-  --secondary-color: #7e7a7a; /* light grey */
+  --primary-color: #00bcd4;
+  --secondary-color: #7e7a7a;
   --dark-grey: #2e2e2e;
   --light-grey: #f4f4f4;
   --white: #ffffff;
@@ -33,6 +33,11 @@ p {
   font-family: var(--primary-font);
   line-height: 1.6;
   color: var(--text-color);
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
 }
 
 /* Header */
@@ -79,6 +84,48 @@ p {
   font-size: 1.25rem;
 }
 
+/* Membership Plans */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 188, 212, 0.2);
+}
+
+.card-title {
+  font-family: var(--accent-font);
+  text-transform: uppercase;
+}
+
+.card-body ul li {
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+
+  .hero-section p {
+    font-size: 1rem;
+  }
+
+  .card-body h4 {
+    font-size: 1.25rem;
+  }
+}
+
+/* Additional Services Icons */
+.card i {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+/* Opening Hours Table */
 .opening-hours-table {
   padding-top: 50px;
   max-width: 700px;
@@ -86,7 +133,7 @@ p {
   margin: 0 auto;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 0 15px rgba(0, 188, 212, 0.2); /* soft shadow in cyan tone */
+  box-shadow: 0 0 15px rgba(0, 188, 212, 0.2);
   background-color: var(--white);
   font-family: var(--primary-font);
 }
@@ -112,13 +159,26 @@ p {
 }
 
 /* Buttons */
+.btn {
+  font-family: var(--secondary-font);
+  text-transform: uppercase;
+  padding: 0.6rem 1.2rem;
+}
+
 .btn-primary {
   background-color: var(--primary-color);
   border: none;
+  color: var(--white);
 }
 
 .btn-primary:hover {
   background-color: #0097a7;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-success:hover,
+.btn-outline-warning:hover {
+  color: var(--white) !important;
 }
 
 /* Sections */
@@ -147,12 +207,12 @@ footer a {
   color: var(--primary-color);
   margin: 0 10px;
   text-decoration: none;
+  transition: color 0.3s, transform 0.3s;
 }
 
 footer a:hover {
   color: #ffffff !important;
   transform: scale(1.1);
-  transition: all 0.3s ease-in-out;
 }
 
 /* Forms */
