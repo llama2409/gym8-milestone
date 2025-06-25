@@ -42,6 +42,19 @@ Homepage and contact page Wireframes (https://balsamiq.cloud/sturfz/pct4t3f)
 
 Gallery page and membership page Wireframes (https://balsamiq.cloud/sturfz/pawhw5k)
 
+## Screenshots
+
+![Homepage desktop view](screenshots/homepage-desktop.png)
+![Homepage mobile view](screenshots/homepage-mobile.png)
+
+![Memberships desktop view](screenshots/memberships-desktop.png)
+![Memberships mobile view](screenshots/memberships-mobile.png)
+
+![Contact desktop view](screenshots/contact-desktop.png)
+![Contact mobile view](screenshots/contact-mobile.png)
+
+![Gallery desktop view](screenshots/gallery-desktop.png)
+![Gallery mobile view](screenshots/gallery-mobile.png)
 ## Demo
 
 https://llama2409.github.io/gym8-milestone/
