@@ -42,6 +42,36 @@ Homepage and contact page Wireframes (https://balsamiq.cloud/sturfz/pct4t3f)
 
 Gallery page and membership page Wireframes (https://balsamiq.cloud/sturfz/pawhw5k)
 
+## ✅ Testing
+
+### Functionality Testing
+
+All pages and navigation links were manually tested to ensure they work as expected:
+
+- Navigation links (Home, Gallery, etc.) redirect correctly
+- Images load properly on all pages
+- External links open in a new tab (e.g., social media icons)
+- All content displays clearly on different screen sizes
+
+### Responsiveness Testing
+
+The website was tested on various screen sizes and devices using:
+
+- Developer Tools in Google Chrome (responsive view)
+- Real mobile device (iPhone / Android)
+- Different resolutions (desktop, laptop, tablet)
+  
+All content resized appropriately and layout adjusted for each screen size.
+
+### Browser Compatibility
+
+The website was tested in the following browsers:
+
+- Google Chrome
+- Microsoft Edge
+
+All browsers displayed consistent layout and behavior.
+
 ## Screenshots
 
 ![Homepage desktop view](screenshots/homepage-desktop.png)
