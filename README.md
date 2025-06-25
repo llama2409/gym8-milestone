@@ -74,17 +74,17 @@ All browsers displayed consistent layout and behavior.
 
 ## Screenshots
 
-![Homepage desktop view](screenshots/homepage-desktop.png)
-![Homepage mobile view](screenshots/homepage-mobile.png)
+![Homepage desktop view](assets/screenshots/homepage-desktop.png)
+![Homepage mobile view](assets/screenshots/homepage-mobile.png)
 
-![Memberships desktop view](screenshots/memberships-desktop.png)
-![Memberships mobile view](screenshots/memberships-mobile.png)
+![Memberships desktop view](assets/screenshots/memberships-desktop.png)
+![Memberships mobile view](assets/screenshots/memberships-mobile.png)
 
-![Contact desktop view](screenshots/contact-desktop.png)
-![Contact mobile view](screenshots/contact-mobile.png)
+![Contact desktop view](assets/screenshots/contact-desktop.png)
+![Contact mobile view](assets/screenshots/contact-mobile.png)
 
-![Gallery desktop view](screenshots/gallery-desktop.png)
-![Gallery mobile view](screenshots/gallery-mobile.png)
+![Gallery desktop view](assets/screenshots/gallery-desktop.png)
+![Gallery mobile view](assets/screenshots/gallery-mobile.png)
 ## Demo
 
 https://llama2409.github.io/gym8-milestone/
