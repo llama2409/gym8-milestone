@@ -38,7 +38,9 @@ so that I can decide if the pricing is true to the environment.
 
 ## Wireframes
 
-Homepage and contact page Wireframes (https://balsamiq.cloud/sturfz/pct4t3f)
+![Homepage wireframe](assets/wireframes/home.png)
+![Gallery wireframe](assets/wireframes/gallery.png)
+![Contact wireframe](assets/wireframes/contact.png)
 
 Gallery page and membership page Wireframes (https://balsamiq.cloud/sturfz/pawhw5k)
 
@@ -74,17 +76,17 @@ All browsers displayed consistent layout and behavior.
 
 ## Screenshots
 
-![Homepage desktop view](assets/screenshots/homepage-desktop.png)
-![Homepage mobile view](assets/screenshots/homepage-mobile.png)
+![Homepage desktop view](assets/screenshots/homepagedesktop.png)
+![Homepage mobile view](assets/screenshots/homepagemobile.png)
 
-![Memberships desktop view](assets/screenshots/memberships-desktop.png)
-![Memberships mobile view](assets/screenshots/memberships-mobile.png)
+![Memberships desktop view](assets/screenshots/membershipsdesktop.png)
+![Memberships mobile view](assets/screenshots/membershipsmobile.png)
 
-![Contact desktop view](assets/screenshots/contact-desktop.png)
-![Contact mobile view](assets/screenshots/contact-mobile.png)
+![Contact desktop view](assets/screenshots/contactdesktop.png)
+![Contact mobile view](assets/screenshots/contactmobile.png)
 
-![Gallery desktop view](assets/screenshots/gallery-desktop.png)
-![Gallery mobile view](assets/screenshots/gallery-mobile.png)
+![Gallery desktop view](assets/screenshots/gallerydesktop.png)
+![Gallery mobile view](assets/screenshots/gallerymobile.png)
 ## Demo
 
 https://llama2409.github.io/gym8-milestone/
