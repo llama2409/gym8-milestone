@@ -41,6 +41,7 @@ so that I can decide if the pricing is true to the environment.
 ![Homepage wireframe](assets/wireframes/home.png)
 ![Gallery wireframe](assets/wireframes/gallery.png)
 ![Contact wireframe](assets/wireframes/contact.png)
+![Services wireframe](assets/wireframes/services.png)
 
 Gallery page and membership page Wireframes (https://balsamiq.cloud/sturfz/pawhw5k)
 
