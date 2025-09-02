@@ -6,8 +6,8 @@
   --primary-font: 'IBM Plex Mono', monospace;
   --secondary-font: 'Lato', sans-serif;
   --accent-font: 'Oswald', sans-serif;
-  --primary-color: #00bcd4;
-  --secondary-color: #7e7a7a;
+  --primary-color: #008394;
+  --secondary-color: #555555;
   --dark-grey: #2e2e2e;
   --light-grey: #f4f4f4;
   --white: #ffffff;
@@ -180,10 +180,16 @@ ul {
   background-color: #0097a7;
 }
 
-.btn-outline-primary:hover,
-.btn-outline-success:hover,
+.btn-outline-primary:hover {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+.btn-outline-success:hover {
+  background-color: #388e3c;
+  border-color: #388e3c;
+}
 .btn-outline-warning:hover {
-  color: var(--white) !important;
+  color: var(--orange) !important;
 }
 
 /* Sections */
@@ -203,9 +209,9 @@ section.bg-dark {
 /* Footer */
 footer {
   background-color: var(--dark-grey);
-  color: var(--light-grey);
+  color: #ffffff;
   padding: 20px 0;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 footer a {

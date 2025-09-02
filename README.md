@@ -43,8 +43,6 @@ so that I can decide if the pricing is true to the environment.
 ![Contact wireframe](assets/wireframes/contact.png)
 ![Services wireframe](assets/wireframes/services.png)
 
-Gallery page and membership page Wireframes (https://balsamiq.cloud/sturfz/pawhw5k)
-
 ## ✅ Testing
 
 ### Functionality Testing
