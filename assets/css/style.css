@@ -1,11 +1,11 @@
 /* Google Fonts Import */
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100..700&family=Lato:wght@300;400;700&family=Oswald:wght@300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100..700&family=Lato:wght@300;400;700&family=Oswald:wght@300..700&display=swap");
 
 /* CSS Variables */
 :root {
-  --primary-font: 'IBM Plex Mono', monospace;
-  --secondary-font: 'Lato', sans-serif;
-  --accent-font: 'Oswald', sans-serif;
+  --primary-font: "IBM Plex Mono", monospace;
+  --secondary-font: "Lato", sans-serif;
+  --accent-font: "Oswald", sans-serif;
   --primary-color: #008394;
   --secondary-color: #555555;
   --dark-grey: #2e2e2e;
@@ -23,7 +23,9 @@ body {
   padding: 0;
 }
 
-h1, h3, h4 {
+h1,
+h3,
+h4 {
   font-family: var(--secondary-font);
   color: var(--primary-color);
   text-transform: uppercase;
